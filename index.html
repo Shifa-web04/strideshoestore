@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>STRIDE — Modern Footwear</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===== NAVIGATION ===== -->
+  <header class="navbar">
+    <nav class="nav-container">
+      <a href="#home" class="logo">STRIDE</a>
+
+      <input type="checkbox" id="menu-toggle" class="menu-toggle">
+      <label for="menu-toggle" class="hamburger">
+        <span></span><span></span><span></span>
+      </label>
+
+      <ul class="nav-links">
+        <li><a href="#new">New Arrivals</a></li>
+        <li><a href="#categories">Shop</a></li>
+        <li><a href="#bestsellers">Best Sellers</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
+
+      <a href="#new" class="btn btn-nav">Shop Now</a>
+    </nav>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <p class="hero-tag">New Season Drop</p>
+      <h1 class="hero-title">MOVE<br>DIFFERENT</h1>
+      <p class="hero-subtitle">Engineered for the streets. Designed for you.</p>
+      <a href="#new" class="btn btn-hero">Shop Collection</a>
+    </div>
+    <div class="hero-image">
+      <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=1200" alt="White sneaker on display">
+    </div>
+  </section>
+  <!-- ===== NEW ARRIVALS ===== -->
+  <section class="new-arrivals" id="new">
+    <div class="section-header">
+      <p class="section-tag">Just Dropped</p>
+      <h2 class="section-title">New Arrivals</h2>
+    </div>
+
+    <div class="product-grid">
+
+      <div class="product-card">
+        <span class="badge">New</span>
+        <div class="product-image">
+          <img class="img-main" src="https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?q=80&w=600" alt="Air runner sneaker front view">
+          <img class="img-hover" src="https://images.unsplash.com/photo-1608231387042-66d1773070a5?q=80&w=600" alt="Air runner sneaker side view">
+        </div>
+        <div class="product-info">
+          <h3>Air Runner Pro</h3>
+          <p class="category">Running</p>
+          <span class="price">$129</span>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <span class="badge">New</span>
+        <div class="product-image">
+          <img class="img-main" src="https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?q=80&w=600" alt="High top sneaker front view">
+          <img class="img-hover" src="https://images.unsplash.com/photo-1552346154-21d32810aba3?q=80&w=600" alt="High top sneaker side view">
+        </div>
+        <div class="product-info">
+          <h3>Urban Highs</h3>
+          <p class="category">Lifestyle</p>
+          <span class="price">$149</span>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <span class="badge">New</span>
+        <div class="product-image">
+          <img class="img-main" src="https://images.unsplash.com/photo-1460353581641-37baddab0fa2?q=80&w=600" alt="Trail sneaker front view">
+          <img class="img-hover" src="https://images.unsplash.com/photo-1519741497674-611481863552?q=80&w=600" alt="Trail sneaker side view">
+        </div>
+        <div class="product-info">
+          <h3>Trail Blazer X</h3>
+          <p class="category">Hiking</p>
+          <span class="price">$159</span>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <span class="badge">New</span>
+        <div class="product-image">
+          <img class="img-main" src="https://images.unsplash.com/photo-1491553895911-0055eca6402d?q=80&w=600" alt="Classic white sneaker front view">
+          <img class="img-hover" src="https://images.unsplash.com/photo-1465479423260-c4afc24172c6?q=80&w=600" alt="Classic white sneaker side view">
+        </div>
+        <div class="product-info">
+          <h3>Classic Court</h3>
+          <p class="category">Casual</p>
+          <span class="price">$99</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <!-- ===== SHOP BY CATEGORY ===== -->
+  <section class="categories" id="categories">
+    <div class="section-header">
+      <p class="section-tag">Browse</p>
+      <h2 class="section-title">Shop by Category</h2>
+    </div>
+
+    <div class="category-grid">
+
+      <a href="#new" class="category-card">
+        <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=700" alt="Running shoes category">
+        <div class="category-overlay">
+          <h3>Running</h3>
+        </div>
+      </a>
+
+      <a href="#new" class="category-card">
+        <img src="https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?q=80&w=700" alt="Lifestyle shoes category">
+        <div class="category-overlay">
+          <h3>Lifestyle</h3>
+        </div>
+      </a>
+
+      <a href="#new" class="category-card">
+        <img src="https://images.unsplash.com/photo-1552346154-21d32810aba3?q=80&w=700" alt="Basketball shoes category">
+        <div class="category-overlay">
+          <h3>Basketball</h3>
+        </div>
+      </a>
+
+    </div>
+  </section>
+  <!-- ===== BEST SELLERS ===== -->
+  <section class="bestsellers" id="bestsellers">
+    <div class="section-header">
+      <p class="section-tag">Customer Favorites</p>
+      <h2 class="section-title">Best Sellers</h2>
+    </div>
+
+    <div class="product-grid">
+
+      <div class="product-card">
+        <div class="product-image">
+          <img class="img-main" src="https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?q=80&w=600" alt="Velocity sneaker front view">
+          <img class="img-hover" src="https://images.unsplash.com/photo-1608231387042-66d1773070a5?q=80&w=600" alt="Velocity sneaker side view">
+        </div>
+        <div class="product-info">
+          <h3>Velocity 2.0</h3>
+          <div class="rating">★★★★★ <span>(214)</span></div>
+          <span class="price">$139</span>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="product-image">
+          <img class="img-main" src="https://images.unsplash.com/photo-1491553895911-0055eca6402d?q=80&w=600" alt="Street Classic sneaker front view">
+          <img class="img-hover" src="https://images.unsplash.com/photo-1465479423260-c4afc24172c6?q=80&w=600" alt="Street Classic sneaker side view">
+        </div>
+        <div class="product-info">
+          <h3>Street Classic</h3>
+          <div class="rating">★★★★★ <span>(389)</span></div>
+          <span class="price">$109</span>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="product-image">
+          <img class="img-main" src="https://images.unsplash.com/photo-1460353581641-37baddab0fa2?q=80&w=600" alt="Summit Trail sneaker front view">
+          <img class="img-hover" src="https://images.unsplash.com/photo-1519741497674-611481863552?q=80&w=600" alt="Summit Trail sneaker side view">
+        </div>
+        <div class="product-info">
+          <h3>Summit Trail</h3>
+          <div class="rating">★★★★★ <span>(167)</span></div>
+          <span class="price">$164</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <!-- ===== WHY CHOOSE US ===== -->
+  <section class="why-us" id="why-us">
+    <div class="section-header">
+      <p class="section-tag">Our Promise</p>
+      <h2 class="section-title">Why Choose STRIDE</h2>
+    </div>
+
+    <div class="why-us-grid">
+
+      <div class="why-us-card">
+        <div class="why-us-icon">🚚</div>
+        <h3>Free Shipping</h3>
+        <p>Free delivery on all orders over $75, no exceptions.</p>
+      </div>
+
+      <div class="why-us-card">
+        <div class="why-us-icon">↩️</div>
+        <h3>30-Day Returns</h3>
+        <p>Not the right fit? Send it back within 30 days, no questions asked.</p>
+      </div>
+
+      <div class="why-us-card">
+        <div class="why-us-icon">✅</div>
+        <h3>Authentic Guarantee</h3>
+        <p>Every pair verified authentic, sourced directly from the brand.</p>
+      </div>
+
+      <div class="why-us-card">
+        <div class="why-us-icon">🔒</div>
+        <h3>Secure Checkout</h3>
+        <p>Bank-level encryption on every single transaction, every time.</p>
+      </div>
+
+    </div>
+  </section>
+  <!-- ===== PRODUCT SPOTLIGHT ===== -->
+  <section class="spotlight" id="spotlight">
+    <div class="spotlight-container">
+
+      <div class="spotlight-image">
+        <img src="https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?q=80&w=900" alt="Featured sneaker product spotlight">
+      </div>
+
+      <div class="spotlight-info">
+        <p class="section-tag">Featured Drop</p>
+        <h2 class="spotlight-title">The Momentum</h2>
+        <p class="spotlight-price">$179</p>
+        <p class="spotlight-description">
+          Engineered with responsive cushioning and a breathable knit upper,
+          the Momentum is built for all-day comfort without compromising on
+          style. Limited release — while stocks last.
+        </p>
+
+        <div class="size-selector">
+          <p class="size-label">Select Size</p>
+          <div class="size-options">
+            <input type="radio" name="size" id="size-7" class="size-radio">
+            <label for="size-7" class="size-btn">7</label>
+
+            <input type="radio" name="size" id="size-8" class="size-radio">
+            <label for="size-8" class="size-btn">8</label>
+
+            <input type="radio" name="size" id="size-9" class="size-radio" checked>
+            <label for="size-9" class="size-btn">9</label>
+
+            <input type="radio" name="size" id="size-10" class="size-radio">
+            <label for="size-10" class="size-btn">10</label>
+
+            <input type="radio" name="size" id="size-11" class="size-radio">
+            <label for="size-11" class="size-btn">11</label>
+          </div>
+        </div>
+
+        <button class="btn btn-spotlight">Add to Cart</button>
+      </div>
+
+    </div>
+  </section>
+  <!-- ===== TESTIMONIALS ===== -->
+  <section class="testimonials" id="testimonials">
+    <div class="section-header">
+      <p class="section-tag">Reviews</p>
+      <h2 class="section-title">What Runners Say</h2>
+    </div>
+
+    <div class="testimonial-grid">
+
+      <div class="testimonial-card">
+        <div class="stars">★★★★★</div>
+        <p class="quote">"Best running shoes I've owned. Lightweight, comfortable, and they actually look great too."</p>
+        <p class="author">— Alex M.</p>
+      </div>
+
+      <div class="testimonial-card">
+        <div class="stars">★★★★★</div>
+        <p class="quote">"Fast shipping, true to size, and the quality feels premium for the price point."</p>
+        <p class="author">— Jordan T.</p>
+      </div>
+
+      <div class="testimonial-card">
+        <div class="stars">★★★★★</div>
+        <p class="quote">"Switched from my old brand entirely. The Momentum is a genuine daily driver now."</p>
+        <p class="author">— Sam K.</p>
+      </div>
+
+    </div>
+  </section>
+  <!-- ===== NEWSLETTER ===== -->
+  <section class="newsletter">
+    <div class="newsletter-container">
+      <h2 class="newsletter-title">Join the Movement</h2>
+      <p class="newsletter-subtitle">Get 15% off your first order, plus early access to new drops.</p>
+
+      <form class="newsletter-form" action="#" method="POST">
+        <input type="email" name="email" placeholder="Enter your email" required>
+        <button type="submit" class="btn btn-newsletter">Subscribe</button>
+      </form>
+    </div>
+  </section>
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="footer-container">
+
+      <div class="footer-brand">
+        <a href="#home" class="logo footer-logo">STRIDE</a>
+        <p>Engineered for movement. Designed for you.</p>
+      </div>
+
+      <div class="footer-links">
+        <h4>Shop</h4>
+        <ul>
+          <li><a href="#new">New Arrivals</a></li>
+          <li><a href="#categories">Categories</a></li>
+          <li><a href="#bestsellers">Best Sellers</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-links">
+        <h4>Support</h4>
+        <ul>
+          <li><a href="#">Shipping Info</a></li>
+          <li><a href="#">Returns</a></li>
+          <li><a href="#">Size Guide</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-social">
+        <h4>Follow Us</h4>
+        <div class="social-icons">
+          <a href="#" aria-label="Instagram">📷</a>
+          <a href="#" aria-label="TikTok">🎵</a>
+          <a href="#" aria-label="Twitter">🐦</a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2026 STRIDE. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- More sections coming next -->
+
+</body>
+</html>
